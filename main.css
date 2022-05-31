@@ -5,7 +5,7 @@ body {
 
 #wrapper {
     max-width: 1000px;
-    height: 1500px;
+    height: 1350px;
     margin: 0 auto;
     background-color: #F0F8FF;
     padding: 40px;
@@ -82,6 +82,27 @@ ul.main_menu {
 
 h3 {
     font-family: Impact;
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
+}
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 5px;
+    margin: 3px;
+}
+p {
+    margin-left: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    display: inline-block;
+    text-transform: uppercase;
 }
