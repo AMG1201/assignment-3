@@ -5,7 +5,7 @@ body {
 
 #wrapper {
     max-width: 1000px;
-    height: 1350px;
+    height: max-content;
     margin: 0 auto;
     background-color: #F0F8FF;
     padding: 40px;
@@ -63,27 +63,11 @@ ul.main_menu {
     border-radius: 3px;
 }
 
-.submenu_bar {
-    display:none;
-}
-
-.main_menu li:hover .submenu_bar {
-    display: block;
-    position: absolute;
-    background: #18C7DE;
-    margin-top: 15px;
-    margin-left: -15px;
-}
-
-.main_menu li :hover .submenu_bar ul {
-    display: block;
-    margin: 10px;
-}
-
 h3 {
     font-family: Impact;
     font-size: 50px;
     text-align: center;
+    margin: 10px;
 }
 .homepage {
     display: flex;
@@ -92,17 +76,64 @@ h3 {
 }
 
 img {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     object-fit: fill;
     border-radius: 5px;
     margin: 3px;
 }
+
 p {
     margin-left: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: justify;
     display: inline-block;
-    text-transform: uppercase;
+}
+
+.topic {
+    font-family: Arial;
+    font-size: 30px;
+    text-align:left;
+    color: black;
+}
+.opportunities {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.risks {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+.choices {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.ethicalreflections {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.references {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.processsupport {
+    font-family: Impact;
+    font-size: 30px;
+    text-align: left;
+    color: black;
 }
