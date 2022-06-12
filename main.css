@@ -7,7 +7,7 @@ body {
     max-width: 1000px;
     height: max-content;
     margin: 0 auto;
-    background-color: #F0F8FF;
+    background-color: white;
     padding: 40px;
 }
 
@@ -69,6 +69,7 @@ h3 {
     text-align: center;
     margin: 10px;
 }
+
 .homepage {
     display: flex;
     align-items: center;
@@ -81,6 +82,7 @@ img {
     object-fit: fill;
     border-radius: 5px;
     margin: 3px;
+
 }
 
 p {
